@@ -1,0 +1,47 @@
+.division div{
+  color: white;
+  position: relative;
+  bottom: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+
+}
+.division button{
+    border-color: white;
+    background-color: white;
+    height: 28px;
+    color: rgb(15, 236, 225);
+    outline-color: rgb(15, 236, 225);
+    letter-spacing: 1.5px;
+}
+.footer{
+    background-color: rgb(33, 33, 84);
+    color: white;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 50px;
+   
+}
+.pagelist{
+    
+    display: flex;
+    align-items: center;
+}
+.pagelist ul{
+    list-style-type: none;
+}
+.pagelist a{
+    text-decoration: none;
+    color: black;
+}
+.tourpage p{
+    color: rgb(5, 189, 189);
+}
+.navcontainer{
+    position: sticky;
+    top: 0%;
+    background-color:aliceblue;
+    z-index: 1;
+}
